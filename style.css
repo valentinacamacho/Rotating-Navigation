@@ -22,6 +22,7 @@ body {
 
 .container.show-nav {
   transform: rotate(-20deg);
+
 }
 
 .circle-container {
@@ -71,5 +72,49 @@ body {
 
 .container.show-nav + nav li {
   transform: translateX(0);
-  transition-delay: 0.3s;
+  transition-delay: 8s;
 }
+
+
+.content{
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.content img{
+  width: 100%; 
+}
+
+.content p{
+  font-size: 13px;
+}
+
+small{
+font-style: italic;
+}
+
+nav ul{
+  position: fixed;
+  bottom: 30px;
+}
+
+ul li.nav-menu{
+  padding-left: 20px;
+}
+
+.nav-menu li{
+  text-align: left;
+  width: 3400px;
+  list-style: none;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.nav-menu li:hover{
+  color: #ff7979;
+}
+
+
